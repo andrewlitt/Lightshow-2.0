@@ -1,0 +1,852 @@
+EESchema Schematic File Version 4
+LIBS:LED-Music-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SparkFun-IC-Microcontroller:ATMEGA328P_PDIP U1
+U 1 1 5D313ACE
+P 3250 3050
+F 0 "U1" H 3250 4454 45  0000 C CNN
+F 1 "ATMEGA328P" H 3250 4370 45  0000 C CNN
+F 2 "Source_Footprints:DIP-28_W7.62mm" H 3250 4400 20  0001 C CNN
+F 3 "" H 3250 3050 50  0001 C CNN
+F 4 "" H 3250 4381 60  0000 C CNN "Field4"
+	1    3250 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Resistors:RESISTOR1206 R1
+U 1 1 5D3263C2
+P 4150 5600
+F 0 "R1" H 4150 5500 45  0000 C CNN
+F 1 "220" H 4150 5700 45  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4150 5750 20  0001 C CNN
+F 3 "" H 4150 5600 60  0001 C CNN
+F 4 " " H 4150 5721 60  0000 C CNN "Field4"
+	1    4150 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun-Resistors:RESISTOR1206 R3
+U 1 1 5D327D1B
+P 3350 7250
+F 0 "R3" H 3350 7350 45  0000 L CNN
+F 1 "22k" H 3200 7350 45  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 7400 20  0001 C CNN
+F 3 "" H 3350 7250 60  0001 C CNN
+F 4 " " V 3434 7318 60  0000 L CNN "Field4"
+	1    3350 7250
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun-Resistors:RESISTOR1206 R2
+U 1 1 5D329671
+P 3350 7050
+F 0 "R2" H 3350 6950 45  0000 L CNN
+F 1 "22k" H 3200 6950 45  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 7200 20  0001 C CNN
+F 3 "" H 3350 7050 60  0001 C CNN
+F 4 " " V 3434 7118 60  0000 L CNN "Field4"
+	1    3350 7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5D3341A5
+P 2700 5750
+F 0 "C1" H 2850 5800 50  0000 C CNN
+F 1 "10uF" H 2900 5700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2738 5600 50  0001 C CNN
+F 3 "~" H 2700 5750 50  0001 C CNN
+	1    2700 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5D338869
+P 3700 7150
+F 0 "C5" V 3550 7100 50  0000 L CNN
+F 1 "0.1u" V 3850 7100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3738 7000 50  0001 C CNN
+F 3 "~" H 3700 7150 50  0001 C CNN
+	1    3700 7150
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Connectors:POWER_JACKSLT J1
+U 1 1 5D33BA49
+P 1850 5750
+F 0 "J1" H 1808 6034 45  0000 C CNN
+F 1 "12V Barrel Jack" H 1808 5950 45  0000 C CNN
+F 2 "POWER_JACK_SLOT" H 1850 6000 20  0001 C CNN
+F 3 "" H 1850 5750 50  0001 C CNN
+F 4 "" H 1808 5961 60  0000 C CNN "Field4"
+	1    1850 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1900 2050 1900
+Wire Wire Line
+	2100 2850 2100 2900
+Wire Wire Line
+	2100 2900 2300 2900
+Wire Wire Line
+	2300 3100 2100 3100
+Wire Wire Line
+	2100 3100 2100 3150
+$Comp
+L Device:C C6
+U 1 1 5D34C8E7
+P 7900 3250
+F 0 "C6" H 7700 3200 50  0000 L CNN
+F 1 "33p" H 7650 3300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7938 3100 50  0001 C CNN
+F 3 "~" H 7900 3250 50  0001 C CNN
+	1    7900 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5D34CC87
+P 9400 3250
+F 0 "C7" H 9515 3296 50  0000 L CNN
+F 1 "0.1u" H 9515 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9438 3100 50  0001 C CNN
+F 3 "~" H 9400 3250 50  0001 C CNN
+	1    9400 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3550 7150
+Wire Wire Line
+	3550 7150 3550 7050
+$Comp
+L SparkFun-Resistors:RESISTOR1206 R4
+U 1 1 5D3671E0
+P 7900 2500
+F 0 "R4" V 7805 2568 45  0000 L CNN
+F 1 "200k" V 7889 2568 45  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7900 2650 20  0001 C CNN
+F 3 "" H 7900 2500 60  0001 C CNN
+F 4 " " V 7984 2568 60  0000 L CNN "Field4"
+	1    7900 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 3100 8150 3100
+Wire Wire Line
+	9150 3100 9400 3100
+$Comp
+L SparkFun-Connectors:AUDIO_JACK_3.5MM_PTH J2
+U 1 1 5D376BD1
+P 2650 7100
+F 0 "J2" H 2700 7500 45  0000 C CNN
+F 1 "3.5mm Audio Jack" H 2700 7400 45  0000 C CNN
+F 2 "AUDIO-JACK" H 2650 7450 20  0001 C CNN
+F 3 "" H 2650 7100 50  0001 C CNN
+F 4 "" H 2633 7397 60  0000 C CNN "Field4"
+	1    2650 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-DiscreteSemi:MOSFET-NCH-FQP30N06L Q3
+U 1 1 5D37DA12
+P 9350 5400
+F 0 "Q3" H 9514 5442 45  0000 L CNN
+F 1 "BLU-NCH" H 9514 5358 45  0000 L CNN
+F 2 "TO220V" H 9350 5650 20  0001 C CNN
+F 3 "" H 9350 5400 50  0001 C CNN
+F 4 "" H 9515 5316 60  0000 L CNN "Field4"
+	1    9350 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 5600 2700 5600
+Wire Wire Line
+	2300 5900 2300 5850
+Wire Wire Line
+	2300 5850 2050 5850
+Wire Wire Line
+	2050 5750 2050 5850
+Connection ~ 2050 5850
+Wire Wire Line
+	3550 5600 3700 5600
+$Comp
+L Device:C C2
+U 1 1 5D338B7A
+P 3700 5750
+F 0 "C2" H 3550 5800 50  0000 C CNN
+F 1 "10uF" H 3500 5700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3738 5600 50  0001 C CNN
+F 3 "~" H 3700 5750 50  0001 C CNN
+	1    3700 5750
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3700 5600
+Connection ~ 3700 5900
+Wire Wire Line
+	3700 5600 3850 5600
+Wire Wire Line
+	2050 5650 2300 5650
+Wire Wire Line
+	2300 5650 2300 5600
+Connection ~ 2700 5600
+Connection ~ 2700 5900
+Wire Wire Line
+	1500 1650 1500 1900
+Wire Wire Line
+	1500 1900 1650 1900
+Wire Wire Line
+	7900 3400 8650 3400
+Connection ~ 8650 3400
+Wire Wire Line
+	8650 3400 9400 3400
+$Comp
+L Device:C C3
+U 1 1 5D40B630
+P 1500 2850
+F 0 "C3" V 1248 2850 50  0000 C CNN
+F 1 "22p" V 1339 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1538 2700 50  0001 C CNN
+F 3 "~" H 1500 2850 50  0001 C CNN
+	1    1500 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 7250 3550 7150
+Wire Wire Line
+	2850 6900 2950 6900
+Wire Wire Line
+	2950 6900 2950 7100
+Wire Wire Line
+	2950 7100 2850 7100
+Wire Wire Line
+	2950 7100 2950 7200
+Wire Wire Line
+	2950 7200 2850 7200
+Connection ~ 2950 7100
+Wire Wire Line
+	2950 7200 2950 7450
+Connection ~ 2950 7200
+Wire Wire Line
+	2850 7000 3050 7000
+Wire Wire Line
+	3050 7000 3050 7050
+Wire Wire Line
+	3150 7050 3050 7050
+Wire Wire Line
+	3150 7250 3050 7250
+Wire Wire Line
+	3050 7250 3050 7300
+Wire Wire Line
+	3050 7300 2850 7300
+Text GLabel 4000 7150 2    50   Input ~ 0
+AUDIO_IN
+Wire Wire Line
+	3850 7150 4000 7150
+Wire Wire Line
+	2700 5900 3250 5900
+$Comp
+L dk_PMIC-Voltage-Regulators-Linear:L7805CV U3
+U 1 1 5D489246
+P 3250 5600
+F 0 "U3" H 3250 5887 60  0000 C CNN
+F 1 "L7805CV" H 3250 5781 60  0000 C CNN
+F 2 "digikey-footprints:TO-220-3" H 3450 5800 60  0001 L CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3450 5900 60  0001 L CNN
+F 4 "497-1443-5-ND" H 3450 6000 60  0001 L CNN "Digi-Key_PN"
+F 5 "L7805CV" H 3450 6100 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 3450 6200 60  0001 L CNN "Category"
+F 7 "PMIC - Voltage Regulators - Linear" H 3450 6300 60  0001 L CNN "Family"
+F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3450 6400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/stmicroelectronics/L7805CV/497-1443-5-ND/585964" H 3450 6500 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC REG LINEAR 5V 1.5A TO220AB" H 3450 6600 60  0001 L CNN "Description"
+F 11 "STMicroelectronics" H 3450 6700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3450 6800 60  0001 L CNN "Status"
+	1    3250 5600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3250 5900
+Wire Wire Line
+	3250 5900 3700 5900
+Text GLabel 7550 5500 1    50   Input ~ 0
+Vg_Q1
+Text GLabel 9150 5500 1    50   Input ~ 0
+Vg_Q3
+Text GLabel 4200 3900 2    50   Input ~ 0
+Vg_Q2
+Text GLabel 4200 3800 2    50   Input ~ 0
+Vg_Q3
+$Comp
+L SW400-ND:SW400-ND S1
+U 1 1 5D3813B4
+P 2450 1500
+F 0 "S1" H 2450 1847 60  0000 C CNN
+F 1 "SW400-ND" H 2450 1741 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_THT_B3F-1xxx" H 2700 1700 60  0001 L CNN
+F 3 "" H 2650 1800 60  0001 L CNN
+	1    2450 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_LED-Indication-Discrete:LG_R971-KN-1 PWR1
+U 1 1 5D38A9DC
+P 4350 5800
+F 0 "PWR1" V 4247 5978 60  0000 L CNN
+F 1 "LED" V 4353 5978 60  0000 L CNN
+F 2 "digikey-footprints:0805" H 4550 6000 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 4550 6100 60  0001 L CNN
+F 4 "475-1410-1-ND" H 4550 6200 60  0001 L CNN "Digi-Key_PN"
+F 5 "LG R971-KN-1" H 4550 6300 60  0001 L CNN "MPN"
+F 6 "Optoelectronics" H 4550 6400 60  0001 L CNN "Category"
+F 7 "LED Indication - Discrete" H 4550 6500 60  0001 L CNN "Family"
+F 8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 4550 6600 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" H 4550 6700 60  0001 L CNN "DK_Detail_Page"
+F 10 "LED GREEN DIFFUSED 0805 SMD" H 4550 6800 60  0001 L CNN "Description"
+F 11 "OSRAM Opto Semiconductors Inc." H 4550 6900 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4550 7000 60  0001 L CNN "Status"
+	1    4350 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Resistors:RESISTOR1206 R5
+U 1 1 5D395886
+P 1850 1900
+F 0 "R5" H 1850 1800 45  0000 C CNN
+F 1 "10k" H 1850 2000 45  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1850 2050 20  0001 C CNN
+F 3 "" H 1850 1900 60  0001 C CNN
+F 4 " " H 1850 2021 60  0000 C CNN "Field4"
+	1    1850 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDA #PWR0101
+U 1 1 5D3BB842
+P 4200 5900
+F 0 "#PWR0101" H 4200 5650 50  0001 C CNN
+F 1 "GNDA" H 4205 5727 50  0000 C CNN
+F 2 "" H 4200 5900 50  0001 C CNN
+F 3 "" H 4200 5900 50  0001 C CNN
+	1    4200 5900
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 5900
+Wire Wire Line
+	4200 5900 4350 5900
+$Comp
+L power:GND #PWR0102
+U 1 1 5D3B85F7
+P 2450 5900
+F 0 "#PWR0102" H 2450 5650 50  0001 C CNN
+F 1 "GND" H 2455 5727 50  0000 C CNN
+F 2 "" H 2450 5900 50  0001 C CNN
+F 3 "" H 2450 5900 50  0001 C CNN
+	1    2450 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5900 2450 5900
+Wire Wire Line
+	3700 5900 4200 5900
+Connection ~ 2450 5900
+Wire Wire Line
+	2450 5900 2700 5900
+$Comp
+L power:+5V #PWR0103
+U 1 1 5D3C14E8
+P 3850 5600
+F 0 "#PWR0103" H 3850 5450 50  0001 C CNN
+F 1 "+5V" H 3865 5773 50  0000 C CNN
+F 2 "" H 3850 5600 50  0001 C CNN
+F 3 "" H 3850 5600 50  0001 C CNN
+	1    3850 5600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3850 5600
+Wire Wire Line
+	3850 5600 3950 5600
+$Comp
+L power:+12V #PWR0104
+U 1 1 5D3C866E
+P 2450 5600
+F 0 "#PWR0104" H 2450 5450 50  0001 C CNN
+F 1 "+12V" H 2465 5773 50  0000 C CNN
+F 2 "" H 2450 5600 50  0001 C CNN
+F 3 "" H 2450 5600 50  0001 C CNN
+	1    2450 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5600 2450 5600
+Connection ~ 2450 5600
+Wire Wire Line
+	2450 5600 2700 5600
+$Comp
+L power:GNDA #PWR0105
+U 1 1 5D3CDACE
+P 2950 7450
+F 0 "#PWR0105" H 2950 7200 50  0001 C CNN
+F 1 "GNDA" H 2955 7277 50  0000 C CNN
+F 2 "" H 2950 7450 50  0001 C CNN
+F 3 "" H 2950 7450 50  0001 C CNN
+	1    2950 7450
+	1    0    0    -1  
+$EndComp
+Text GLabel 8350 5500 1    50   Input ~ 0
+Vg_Q2
+$Comp
+L SparkFun-DiscreteSemi:MOSFET-NCH-FQP30N06L Q2
+U 1 1 5D37CCED
+P 8550 5400
+F 0 "Q2" H 8714 5442 45  0000 L CNN
+F 1 "RED-NCH" H 8714 5358 45  0000 L CNN
+F 2 "TO220V" H 8550 5650 20  0001 C CNN
+F 3 "" H 8550 5400 50  0001 C CNN
+F 4 "" H 8715 5316 60  0000 L CNN "Field4"
+	1    8550 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5D3D93E4
+P 7850 5600
+F 0 "#PWR0106" H 7850 5350 50  0001 C CNN
+F 1 "GND" H 7855 5427 50  0000 C CNN
+F 2 "" H 7850 5600 50  0001 C CNN
+F 3 "" H 7850 5600 50  0001 C CNN
+	1    7850 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5D3DA62F
+P 8650 5600
+F 0 "#PWR0107" H 8650 5350 50  0001 C CNN
+F 1 "GND" H 8655 5427 50  0000 C CNN
+F 2 "" H 8650 5600 50  0001 C CNN
+F 3 "" H 8650 5600 50  0001 C CNN
+	1    8650 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5D3DA985
+P 9450 5600
+F 0 "#PWR0108" H 9450 5350 50  0001 C CNN
+F 1 "GND" H 9455 5427 50  0000 C CNN
+F 2 "" H 9450 5600 50  0001 C CNN
+F 3 "" H 9450 5600 50  0001 C CNN
+	1    9450 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Connectors:CONN_04 J3
+U 1 1 5D3513B1
+P 8450 4750
+F 0 "J3" V 8313 5128 45  0000 L CNN
+F 1 "LED_CONN" V 8397 5128 45  0000 L CNN
+F 2 "1X04" H 8450 5250 20  0001 C CNN
+F 3 "" H 8450 4750 50  0001 C CNN
+F 4 "" V 8492 5128 60  0000 L CNN "Field4"
+	1    8450 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 4850 8250 4700
+$Comp
+L power:+12V #PWR0109
+U 1 1 5D3E8472
+P 8250 4700
+F 0 "#PWR0109" H 8250 4550 50  0001 C CNN
+F 1 "+12V" H 8265 4873 50  0000 C CNN
+F 2 "" H 8250 4700 50  0001 C CNN
+F 3 "" H 8250 4700 50  0001 C CNN
+	1    8250 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 4850 8450 4850
+$Comp
+L power:+5V #PWR0110
+U 1 1 5D4005C7
+P 1500 1650
+F 0 "#PWR0110" H 1500 1500 50  0001 C CNN
+F 1 "+5V" H 1515 1823 50  0000 C CNN
+F 2 "" H 1500 1650 50  0001 C CNN
+F 3 "" H 1500 1650 50  0001 C CNN
+	1    1500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0111
+U 1 1 5D400A9F
+P 1350 2850
+F 0 "#PWR0111" H 1350 2600 50  0001 C CNN
+F 1 "GNDA" V 1355 2723 50  0000 R CNN
+F 2 "" H 1350 2850 50  0001 C CNN
+F 3 "" H 1350 2850 50  0001 C CNN
+	1    1350 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDA #PWR0112
+U 1 1 5D400FF5
+P 1350 3150
+F 0 "#PWR0112" H 1350 2900 50  0001 C CNN
+F 1 "GNDA" V 1355 3023 50  0000 R CNN
+F 2 "" H 1350 3150 50  0001 C CNN
+F 3 "" H 1350 3150 50  0001 C CNN
+	1    1350 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5D40D63B
+P 1500 3150
+F 0 "C4" V 1650 3150 50  0000 C CNN
+F 1 "22p" V 1750 3150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1538 3000 50  0001 C CNN
+F 3 "~" H 1500 3150 50  0001 C CNN
+	1    1500 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 3150 2100 3150
+Wire Wire Line
+	1650 3150 1750 3150
+Connection ~ 1750 3150
+Wire Wire Line
+	1750 2850 2100 2850
+Wire Wire Line
+	1650 2850 1750 2850
+Connection ~ 1750 2850
+$Comp
+L Device:Crystal Y1
+U 1 1 5D33E479
+P 1750 3000
+F 0 "Y1" V 1700 3100 50  0000 L CNN
+F 1 "16MHz" V 1800 3100 50  0000 L CNN
+F 2 "HC49US" H 1750 3000 50  0001 C CNN
+F 3 "~" H 1750 3000 50  0001 C CNN
+	1    1750 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDA #PWR0113
+U 1 1 5D409DED
+P 2300 4100
+F 0 "#PWR0113" H 2300 3850 50  0001 C CNN
+F 1 "GNDA" V 2305 3973 50  0000 R CNN
+F 2 "" H 2300 4100 50  0001 C CNN
+F 3 "" H 2300 4100 50  0001 C CNN
+	1    2300 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDA #PWR0114
+U 1 1 5D40A0A7
+P 2300 4000
+F 0 "#PWR0114" H 2300 3750 50  0001 C CNN
+F 1 "GNDA" V 2305 3873 50  0000 R CNN
+F 2 "" H 2300 4000 50  0001 C CNN
+F 3 "" H 2300 4000 50  0001 C CNN
+	1    2300 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDA #PWR0116
+U 1 1 5D40EC7F
+P 8650 3400
+F 0 "#PWR0116" H 8650 3150 50  0001 C CNN
+F 1 "GNDA" H 8655 3227 50  0000 C CNN
+F 2 "" H 8650 3400 50  0001 C CNN
+F 3 "" H 8650 3400 50  0001 C CNN
+	1    8650 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 3300 8650 3400
+Text GLabel 4200 4000 2    50   Input ~ 0
+Vg_Q1
+Text GLabel 8150 2800 0    50   Input ~ 0
+AUDIO_IN
+$Comp
+L SparkFun-DiscreteSemi:MOSFET-NCH-FQP30N06L Q1
+U 1 1 5D37A331
+P 7750 5400
+F 0 "Q1" H 7914 5442 45  0000 L CNN
+F 1 "GRN-NCH" H 7914 5358 45  0000 L CNN
+F 2 "TO220V" H 7750 5650 20  0001 C CNN
+F 3 "" H 7750 5400 50  0001 C CNN
+F 4 "" H 7915 5316 60  0000 L CNN "Field4"
+	1    7750 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 5200 9450 5050
+Wire Wire Line
+	9450 5050 8750 5050
+Wire Wire Line
+	8550 5050 7850 5050
+Wire Wire Line
+	7850 5050 7850 5200
+Wire Wire Line
+	8650 4850 8650 5200
+Wire Wire Line
+	8550 5050 8550 4850
+Wire Wire Line
+	8750 4850 8750 5050
+Wire Wire Line
+	8300 2300 8650 2300
+Connection ~ 8300 2300
+$Comp
+L Audio:MSGEQ7 U2
+U 1 1 5D34D059
+P 8650 2800
+F 0 "U2" H 9000 3350 50  0000 C CNN
+F 1 "MSGEQ7" H 8900 3250 50  0000 C CNN
+F 2 "Source_Footprints:DIP-8_W7.62mm" H 8650 2800 50  0001 C CNN
+F 3 "http://mix-sig.com/images/datasheets/MSGEQ7.pdf" H 8650 2800 50  0001 C CNN
+	1    8650 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2300 8300 2300
+$Comp
+L power:+5V #PWR0115
+U 1 1 5D40E5DA
+P 8300 2300
+F 0 "#PWR0115" H 8300 2150 50  0001 C CNN
+F 1 "+5V" H 8315 2473 50  0000 C CNN
+F 2 "" H 8300 2300 50  0001 C CNN
+F 3 "" H 8300 2300 50  0001 C CNN
+	1    8300 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1400 2050 1400
+Wire Wire Line
+	2050 1400 2050 1600
+Connection ~ 2050 1900
+$Comp
+L power:GNDA #PWR0117
+U 1 1 5D4ABAF3
+P 2650 1400
+F 0 "#PWR0117" H 2650 1150 50  0001 C CNN
+F 1 "GNDA" V 2655 1273 50  0000 R CNN
+F 2 "" H 2650 1400 50  0001 C CNN
+F 3 "" H 2650 1400 50  0001 C CNN
+	1    2650 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDA #PWR0118
+U 1 1 5D4AC03C
+P 2650 1600
+F 0 "#PWR0118" H 2650 1350 50  0001 C CNN
+F 1 "GNDA" V 2655 1473 50  0000 R CNN
+F 2 "" H 2650 1600 50  0001 C CNN
+F 3 "" H 2650 1600 50  0001 C CNN
+	1    2650 1600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1950 1600 0    50   Input ~ 0
+RST
+$Comp
+L SparkFun-Connectors:CONN_04 J5
+U 1 1 5D38D0B6
+P 4800 2700
+F 0 "J5" H 4572 2808 45  0000 R CNN
+F 1 "PRGRM" H 4572 2892 45  0000 R CNN
+F 2 "1X04" H 4800 3200 20  0001 C CNN
+F 3 "" H 4800 2700 50  0001 C CNN
+F 4 "" H 4572 2934 60  0000 R CNN "Field4"
+	1    4800 2700
+	-1   0    0    1   
+$EndComp
+Connection ~ 7900 3100
+Wire Wire Line
+	7900 2700 7900 3100
+Text GLabel 4200 1900 2    50   Input ~ 0
+MSGEQ7_OUT
+Text GLabel 9150 2900 2    50   Input ~ 0
+MSGEQ7_OUT
+$Comp
+L power:GNDA #PWR0119
+U 1 1 5D38F05A
+P 4700 3000
+F 0 "#PWR0119" H 4700 2750 50  0001 C CNN
+F 1 "GNDA" H 4705 2827 50  0000 C CNN
+F 2 "" H 4700 3000 50  0001 C CNN
+F 3 "" H 4700 3000 50  0001 C CNN
+	1    4700 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4700 2700 0    50   Input ~ 0
+RST
+Text GLabel 4200 3100 2    50   Input ~ 0
+RESET
+Text GLabel 4200 3000 2    50   Input ~ 0
+STROBE
+Text GLabel 9150 2600 2    50   Input ~ 0
+RESET
+Text GLabel 9150 2500 2    50   Input ~ 0
+STROBE
+Wire Wire Line
+	1500 1900 1500 2100
+Wire Wire Line
+	1500 2100 2050 2100
+Connection ~ 1500 1900
+Wire Wire Line
+	2050 2100 2050 2200
+Wire Wire Line
+	2050 2200 2300 2200
+Connection ~ 2050 2100
+Wire Wire Line
+	2050 2100 2300 2100
+Wire Wire Line
+	2050 2200 2050 2500
+Wire Wire Line
+	2050 2500 2300 2500
+Connection ~ 2050 2200
+Wire Wire Line
+	4200 2800 4700 2800
+Wire Wire Line
+	4200 2900 4700 2900
+Text Label 4200 2800 0    50   ~ 0
+Rx
+Text Label 4200 2900 0    50   ~ 0
+Tx
+$Comp
+L SparkFun-Connectors:CONN_05 J4
+U 1 1 5D3F7F4E
+P 4800 2000
+F 0 "J4" H 4572 2158 45  0000 R CNN
+F 1 "A1-5" H 4572 2242 45  0000 R CNN
+F 2 "1X05" H 4800 2600 20  0001 C CNN
+F 3 "" H 4800 2000 50  0001 C CNN
+F 4 "" H 4572 2284 60  0000 R CNN "Field4"
+	1    4800 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 2000 4700 2000
+Wire Wire Line
+	4700 2100 4200 2100
+Wire Wire Line
+	4200 2200 4700 2200
+Wire Wire Line
+	4700 2300 4200 2300
+Wire Wire Line
+	4200 2400 4700 2400
+$Comp
+L SparkFun-Connectors:CONN_05 J6
+U 1 1 5D404E07
+P 4800 3300
+F 0 "J6" H 4572 3458 45  0000 R CNN
+F 1 "D4-8" H 4572 3542 45  0000 R CNN
+F 2 "1X05" H 4800 3900 20  0001 C CNN
+F 3 "" H 4800 3300 50  0001 C CNN
+F 4 "" H 4572 3584 60  0000 R CNN "Field4"
+	1    4800 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 3700 4700 3700
+Wire Wire Line
+	4200 3500 4300 3500
+Wire Wire Line
+	4300 3500 4300 3600
+Wire Wire Line
+	4300 3600 4700 3600
+Wire Wire Line
+	4700 3500 4400 3500
+Wire Wire Line
+	4400 3500 4400 3400
+Wire Wire Line
+	4400 3400 4200 3400
+Wire Wire Line
+	4200 3300 4500 3300
+Wire Wire Line
+	4500 3300 4500 3400
+Wire Wire Line
+	4500 3400 4700 3400
+Wire Wire Line
+	4700 3300 4600 3300
+Wire Wire Line
+	4600 3300 4600 3200
+Wire Wire Line
+	4600 3200 4200 3200
+$Comp
+L dk_LED-Indication-Discrete:LG_R971-KN-1 STAT1
+U 1 1 5D43A8AE
+P 4600 4400
+F 0 "STAT1" V 4497 4578 60  0000 L CNN
+F 1 "LED" V 4603 4578 60  0000 L CNN
+F 2 "digikey-footprints:0805" H 4800 4600 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 4800 4700 60  0001 L CNN
+F 4 "475-1410-1-ND" H 4800 4800 60  0001 L CNN "Digi-Key_PN"
+F 5 "LG R971-KN-1" H 4800 4900 60  0001 L CNN "MPN"
+F 6 "Optoelectronics" H 4800 5000 60  0001 L CNN "Category"
+F 7 "LED Indication - Discrete" H 4800 5100 60  0001 L CNN "Family"
+F 8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 4800 5200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" H 4800 5300 60  0001 L CNN "DK_Detail_Page"
+F 10 "LED GREEN DIFFUSED 0805 SMD" H 4800 5400 60  0001 L CNN "Description"
+F 11 "OSRAM Opto Semiconductors Inc." H 4800 5500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4800 5600 60  0001 L CNN "Status"
+	1    4600 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Resistors:RESISTOR1206 R6
+U 1 1 5D43C2CB
+P 4400 4200
+F 0 "R6" H 4500 4300 45  0000 C CNN
+F 1 "220" H 4350 4300 45  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 4350 20  0001 C CNN
+F 3 "" H 4400 4200 60  0001 C CNN
+F 4 " " H 4400 4321 60  0000 C CNN "Field4"
+	1    4400 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDA #PWR0120
+U 1 1 5D43E6D5
+P 4600 4500
+F 0 "#PWR0120" H 4600 4250 50  0001 C CNN
+F 1 "GNDA" H 4605 4327 50  0000 C CNN
+F 2 "" H 4600 4500 50  0001 C CNN
+F 3 "" H 4600 4500 50  0001 C CNN
+	1    4600 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1600 2050 1600
+Connection ~ 2050 1600
+Wire Wire Line
+	2050 1600 2050 1900
+Text Notes 8000 1900 0    59   ~ 12
+MSGEQ7 Supporting Circuitry
+Text Notes 8200 4300 0    59   ~ 12
+LED Strip Output
+Text Notes 2450 5050 0    59   ~ 12
+Power Supply (+12V and +5V)
+Text Notes 2850 6500 0    59   ~ 12
+Audio Input
+Text Notes 1400 900  0    59   ~ 12
+ATmega Support Circuitry
+Text Notes 4250 900  0    59   ~ 12
+ATmega I/O
+$EndSCHEMATC
