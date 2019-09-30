@@ -7,4 +7,4 @@ KiCAD Project Files for a PCB to control LED's through Music! Uses MSGEQ7 + ATme
 
 Parts are en route! To be updated!
 
-[render]: https://andrewlitt.github.io/2019/08/11/LED-Music/header.png "PCB Rendering"
+[render]: "https://andrewlitt.github.io/2019/08/11/LED-Music/header.png" "PCB Rendering"
